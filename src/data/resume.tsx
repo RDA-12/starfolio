@@ -11,17 +11,19 @@ import { Dart } from "@/components/ui/svgs/dart"
 import { Firebase } from "@/components/ui/svgs/firebase"
 import { Fastapi } from "@/components/ui/svgs/fastapi"
 import { ReactLight } from "@/components/ui/svgs/reactLight"
+import { NestJS } from "@/components/ui/svgs/nestjs"
+import { GCP } from "@/components/ui/svgs/gcp"
 
 export const DATA = {
-  name: "Ridwan Dwi Adani - Mobile Developer",
+  name: "Ridwan Dwi Adani - Software Engineer",
   initials: "RDA",
   url: "https://ridwandwiadani.my.id",
   location: "Bogor, West Java",
   locationLink: "",
   description:
-    "Mobile Developer backed with 3+ years of full stack experienced. Building mobile apps with Flutter across POS, IoT, and interactive learning apps. Eager to master not just Flutter and native side, but also other mobile app ecosystems, like React Native.",
+    "Software engineer with 3 years of experience, designing and delivering end-to-end systems across flutter mobile apps, react/next web platform, and fastapi/nest backend. Experienced building ERP, messaging, IoT, and AI-integrated systems. Proven ability to take products from requirements into production.",
   summary:
-    "I was a Full Stack Developer for 3 years on my previous role. I am grateful of that opportunity which gave me a broad view of a complex system architecture. Reflecting on those 3 years made me realize that I really enjoy building seamless apps for users. Now, I am focusing my effort on becoming a mobile application expert - not only mastering Flutter and native side (Android/Kotlin & iOS/Swift), but also adapt to new mobile app ecosystems.",
+    "I love building systems to helps other people works. I spend a lot of my times with Flutter, React/NextJS, FastAPI, and NestJS to build that system. I can adapt with new technology. In fact, I was a mobile developer at first in my first company, but transformed into developer who can build an entire system. So, I'll be happy as long as I could still code and delivering great solutions for others.",
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
@@ -56,11 +58,13 @@ export const DATA = {
     { name: "Python", icon: Python },
     { name: "FastAPI", icon: Fastapi },
     { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "React.js", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
+    { name: "Nodejs", icon: Nodejs },
+    { name: "Reactjs", icon: ReactLight },
+    { name: "Nextjs", icon: NextjsIconDark },
+    { name: "nestjs", icon: NestJS },
     { name: "Postgres", icon: Postgresql },
     { name: "Docker", icon: Docker },
+    { name: "GCP", icon: GCP },
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
@@ -186,7 +190,8 @@ export const DATA = {
       href: "#",
       dates: "2024 - 2025",
       active: false,
-      description: "An omnichannel messaging apps that allow users to manage various messaging channels in just 1 platform. Leveraged OpenAI model to create AI agent that can take order, save new customer data, and give answer based on dynamic product knowledge.",
+      description:
+        "An omnichannel messaging apps that allow users to manage various messaging channels in just 1 platform. Leveraged OpenAI model to create AI agent that can take order, save new customer data, and give answer based on dynamic product knowledge.",
       technologies: [
         "TypeScript",
         "Next.js",
